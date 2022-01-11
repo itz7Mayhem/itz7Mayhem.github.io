@@ -1,0 +1,76 @@
+html{
+	background: url(backgroundimage.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*{
+	text-align: right;
+}
+
+li{
+	list-style: none;
+
+}
+h1{
+	text-align: center;
+	font-style: italic;
+	font-size: 2rem;
+	border-bottom: 3px solid rgba(76, 152, 109, 0.5);
+	border-right: 3px solid rgba(76, 152, 109, 0.5);
+	width: 400px;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+
+}
+
+h2{
+	text-align: center;
+	font-style:italic; 
+	cursor:pointer;
+
+}
+P{
+	font-size: 1.5rem;
+	font-style: italic;
+	text-indent: 30px;
+	line-height: 50px;
+	text-align: center;
+}
+
+span{
+    font-size: 2em;
+    font-style: italic;
+}
+
+h4{
+	text-align: center;
+}
+
+.boxmodel{
+	border: 5px solid rgba(76, 152, 109, 0.5);
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px 0px 20px;
+	cursor: pointer;
+}
+
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.btn-primary{
+	background-color: seagreen;
+	border-color: darkseagreen;
+}
+
+.btn-primary:hover{
+background-color: darkseagreen;
+border-color: darkseagreen;
+}
